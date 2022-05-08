@@ -15,9 +15,10 @@
 
 ## Crawling
 
-웹드라이버를 통해 페이지 열기
+웹드라이버 경로 지정
 
 ```c
 url = "https://map.naver.com/v5/search/" + search_key # webpage path
 driverPath = "chromedriver.exe" # driver path
 ```
+
