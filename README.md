@@ -20,7 +20,7 @@ url = "https://map.naver.com/v5/search/" + search_key # webpage path
 driverPath = "chromedriver.exe" # driver path
 ```
 
-Django 서버 실행
+엑셀 파일 생성
 ```
 df = pd.DataFrame(review_data, columns = ['장소명', '리뷰']) # Makes dataframe and save in excel file
 df.to_csv(file_name + '.csv', encoding='utf-8-sig', index=False)
