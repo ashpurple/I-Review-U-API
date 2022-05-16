@@ -2,7 +2,7 @@
 <img src="https://img.shields.io/badge/platform-python-blue"> <img src="https://img.shields.io/badge/platform-Flutter-skyblue">
 
 > 크롤링을 통한 엑셀파일 생성법
-
+> Django API 확인법
 
 
 ## Project Description
@@ -56,9 +56,19 @@ df.to_csv(file_name + '.csv', encoding='utf-8-sig', index=False)
 
 ![image](https://user-images.githubusercontent.com/44630614/167439510-2e5f4ecd-77fa-4d94-935b-e6dd86b17998.png)
 
+## Django API Server
+터미널 경로를 Backend 폴더로 설정 후 다음 명령어 입력
+```
+Python manage.py makemigrations crawling_data
+Python manage.py migrate crawling_data
+python manage.py createsuperuser # 서버 관리자 계정 생성
+```
+cmd의 ipconfig를 통해 IPv4 주소 확인 후 서버 구동
+```
+python manage.py runserver [IPv4주소]:8000
+```
 
 ## Review Analysis
 
-플러터 앱을 실행하고 특정 카페 선택 후  리뷰 분석 버튼을 클릭하면 자연어처리 라이브러리인 Pororo를 통해 엑셀 파일에 담긴 리뷰를 자동 분석
 
 
