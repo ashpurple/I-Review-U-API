@@ -56,7 +56,7 @@ df.to_csv(file_name + '.csv', encoding='utf-8-sig', index=False) # Saves datafra
 
 ![image](https://user-images.githubusercontent.com/44630614/167439510-2e5f4ecd-77fa-4d94-935b-e6dd86b17998.png)
 
-## Django API Server
+## Django Server API
 터미널 경로를 Backend 폴더로 설정 후 다음 명령어 입력
 ```
 Python manage.py makemigrations crawling_data
