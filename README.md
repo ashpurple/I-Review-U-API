@@ -70,6 +70,7 @@ python manage.py runserver [IPv4주소]:8000
 
 ## Review Analysis
 각 페이지의 Uri.parse에 api 주소 입력
+
 home.dart
 ```
 Uri.parse("http://[IPv4주소]:8000/api/buildingdata/")
