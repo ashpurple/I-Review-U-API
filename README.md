@@ -61,7 +61,7 @@ df.to_csv(file_name + '.csv', encoding='utf-8-sig', index=False) # Saves datafra
 ```
 Python manage.py makemigrations crawling_data
 Python manage.py migrate crawling_data
-python manage.py createsuperuser # 서버 관리자 계정 생성
+python manage.py createsuperuser # Create admin account
 ```
 cmd의 ipconfig를 통해 IPv4 주소 확인 후 서버 구동
 ```
