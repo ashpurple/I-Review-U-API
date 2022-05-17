@@ -69,6 +69,22 @@ python manage.py runserver [IPv4주소]:8000
 ```
 
 ## Review Analysis
-
+각 페이지의 Uri.parse에 api 주소 입력
+home.dart
+```
+Uri.parse("http://[IPv4주소]:8000/api/buildingdata/")
+```
+review.dart
+```
+Uri.parse("http://[IPv4주소]:8000/api/buildingdata/" + slug + "/")
+```
+review2.dart
+```
+http://[IPv4주소]:8000/api/buildingdata/" + slug + "/analysis
+```
+터미널 경로를 Front의 i_review_u 폴더로 설정 후 다음 명령어 입력
+```
+flutter run -d chrome --web-port=8000
+```
 
 
