@@ -63,7 +63,7 @@ Python manage.py makemigrations crawling_data
 Python manage.py migrate crawling_data
 python manage.py createsuperuser # Create admin account
 ```
-cmd의 ipconfig를 통해 IPv4 주소 확인 후 서버 구동
+크롤링이 끝난 후 cmd의 ipconfig를 통해 IPv4 주소 확인 및 서버 구동
 ```
 python manage.py runserver [IPv4주소]:8000
 ```
