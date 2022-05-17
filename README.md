@@ -48,8 +48,8 @@ driverPath = "chromedriver.exe" # driver path
 
 아래 코드의 주석 처리를 제거하여 Excel 파일 생성
 ```
-df = pd.DataFrame(review_data, columns = ['장소명', '리뷰']) # Makes dataframe and save in excel file
-df.to_csv(file_name + '.csv', encoding='utf-8-sig', index=False)
+df = pd.DataFrame(review_data, columns = ['장소명', '리뷰']) # Makes dataframe
+df.to_csv(file_name + '.csv', encoding='utf-8-sig', index=False) # Saves dataframe in csv file
 ```
 
 엑셀 파일명은 크롤링 실행 시 입력 가능
