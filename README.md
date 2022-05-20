@@ -1,9 +1,7 @@
 # I-Review-U-API
 <img src="https://img.shields.io/badge/platform-python-blue"> <img src="https://img.shields.io/badge/platform-Flutter-skyblue">
 
-> 크롤링을 통한 엑셀파일 생성법
-> Django API 확인법
-
+# 크롤링을 통한 엑셀파일 생성법 및 Django API 확인법
 
 ## Project Description
 I-Review-You는 크롤링한 데이터를 바탕으로 리뷰를 분석하여 긍부정 및 속성을 제공해주는 프로젝트 입니다.
