@@ -6,6 +6,10 @@
 ## Project Description
 I-Review-You는 크롤링한 데이터를 바탕으로 리뷰를 분석하여 긍부정 및 속성을 제공해주는 프로젝트 입니다.
 
+## Demo
+![image](https://user-images.githubusercontent.com/44630614/170023971-54921f4e-6694-4032-a859-08c4996e1d19.png)
+
+
 ## Requirement
 다음 명령어를 통해 requirements.txt에 있는 파이썬 라이브러리를 설치
 ```
@@ -30,10 +34,6 @@ dependencies:
 ```
 flutter pub get
 ```
-
-
-
-## Demo
 
 
 ## Create Excel File
@@ -65,6 +65,7 @@ python manage.py createsuperuser # Create admin account
 ```
 python manage.py runserver [IPv4주소]:8000
 ```
+![image](https://user-images.githubusercontent.com/44630614/170024452-339ddd3c-076f-46d4-b0b2-009398a94d86.png)
 
 ## Review Analysis
 각 페이지의 Uri.parse에 api 주소 입력
@@ -86,4 +87,9 @@ http://[IPv4주소]:8000/api/buildingdata/" + slug + "/analysis
 flutter run -d chrome --web-port=8000
 ```
 
+앱 실행 후 장소를 하나 선택 후 리뷰 분석 버튼 클릭
+
+![image](https://user-images.githubusercontent.com/44630614/170024738-c8915ca9-b356-4d92-a457-9052ffb3cfd3.png)
+![image](https://user-images.githubusercontent.com/44630614/170024766-7a81bbb7-2d80-4fa1-8870-83cffb840268.png)
+![image](https://user-images.githubusercontent.com/44630614/170024773-660fce49-f0d1-403b-adcb-c5620e22ef08.png)
 
