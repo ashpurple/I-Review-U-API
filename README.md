@@ -4,7 +4,7 @@
 # 크롤링을 통한 엑셀파일 생성법 및 Django API 확인법
 
 ## Project Description
-I-Review-You는 크롤링한 데이터를 바탕으로 리뷰를 분석하여 긍부정 및 속성을 제공해주는 프로젝트 입니다.
+I-Review-You는 네이버 플레이스에서 크롤링한 데이터를 바탕으로 리뷰를 분석하여 긍부정 및 속성값을 예측하여 제공해주는 프로젝트입니다.
 
 ## Demo
 ![image](https://user-images.githubusercontent.com/44630614/170023971-54921f4e-6694-4032-a859-08c4996e1d19.png)
